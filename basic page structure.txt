@@ -1,0 +1,30 @@
+Oshin basic layout map.
+<body>
+	<.sb-slidebar sb-right>'
+		<.overlay-menu>
+		<.display-table
+			<#sb-slidebar-content>
+				<#logo-sidebar>
+				<.menu>
+				<.widget_text>
+			</>
+		</>
+	</>
+	<.search-box-wrapper>
+	<#main-wrapper>
+		<#main>
+			<#header>
+				<#header-inner-wrap>
+					<#header-wrap>
+						<.logo>
+						<#header-controls-right>
+						<#navigation>
+			<#hero section>
+			<#content>
+				<#content-wrap>
+			<#bottom-widgets>
+			<#footer>
+		</#main>
+	</#main-wrapper>
+	
+	

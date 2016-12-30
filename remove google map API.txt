@@ -1,0 +1,5 @@
+// add to functions.php of child theme....
+add_action( 'wp_enqueue_scripts', 'be_remove_scripts', 12 );
+function be_remove_scripts(){
+    wp_deregister_script( 'map-api' );
+}
