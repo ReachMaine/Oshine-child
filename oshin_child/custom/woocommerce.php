@@ -20,3 +20,20 @@ add_filter( 'woocommerce_return_to_shop_redirect', 'skyverge_change_empty_cart_b
  function reach_after_theme_setup() {
      remove_action('woocommerce_single_product_summary', 'be_themes_share_woo_products', 59);
 }
+// to remove sku from everywhere....
+add_filter( 'wc_product_sku_enabled', '__return_false' );
+
+// remove additional information tab
+add_filter( 'woocommerce_product_tabs', 'woo_remove_product_tabs', 98 );
+function woo_remove_product_tabs( $tabs ) {
+    unset( $tabs['additional_information'] );  	// Remove the additional information tab
+    return $tabs;
+
+}
+// remove category on single product
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
+
+function remove_parent_theme_features() {
+  /* remove oshine's adding social media  to products */
+  remove_action('woocommerce_single_product_summary', 'be_themes_share_woo_products', 59);
+}
