@@ -1,4 +1,4 @@
-<?php/* 17july17 zig = use h1 for page title. */
+<?php /* 17july17 zig = use h1 for page title. */
 $output = '';
 $output .= '<div class="title-module-wrap page-title-module-custom"><div class="be-wrap clearfix">';
 $output .= '<h1 class="left page-title-custom">';
