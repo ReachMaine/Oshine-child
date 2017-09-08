@@ -19,7 +19,11 @@ Version: 1.2
 /*  header stuff - here */
 
 /*** styling of content */
-
+/*** styling of content */
+#content.right-sidebar-page {
+	padding-top: 45px;  // small at mobile in media
+	padding-bottom: 45px;
+}
 /** sidebar
 
 /** footer **/
