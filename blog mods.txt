@@ -1,0 +1,20 @@
+remove comments 
+-------------------
+ - 1. blog/post-top-details =>  comment the <li> for comments
+ - 2. comments.php =>  comment out the whole file
+
+remove categories at bottom of single post & archive
+-----------------------------
+
+ - blog/post-bottom-details  => comment out the whole thing 
+
+blog archive use excerpt
+------------
+ex:  blog/loop-style2 => approx line 48 only check for if !is_single().  i.e. dont check for enable_pb_blog_posts 
+
+
+
+single posts
+---------------
+  - move pict under title and wrap content around, also max height & widget (40%?)
+   ex:  birchbayvillage.
