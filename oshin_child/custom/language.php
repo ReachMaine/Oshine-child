@@ -5,7 +5,7 @@
 		function reach_change_theme_text( $translated_text, $text, $domain ) {
 			 /* if ( is_singular() ) { */
 			    switch ($domain) {
-					case 'woocommerce':
+					/* case 'woocommerce':
 						switch ( $translated_text ) {
 				            case 'Place order' :
 				                $translated_text = __( 'Make Payment',  'woocommerce'  );
@@ -14,7 +14,14 @@
 				            	$translated_text = __( 'Continue to Checkout',  'woocommerce'  );
 				            	break;
 				        }
-						break;
+						break; */
+						case 'oshin': {
+							switch ( $translated_text ) {
+									 case 'Category: ' : // remove Category: from front of blog archives.
+											 $translated_text =  '';
+											 break;
+							 }
+						} // end ohin
 					default:
 						/* switch ( $translated_text ) {
 				            case 'Category' :
