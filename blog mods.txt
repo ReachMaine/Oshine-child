@@ -1,20 +1,40 @@
-remove comments 
+remove comments
 -------------------
  - 1. blog/post-top-details =>  comment the <li> for comments
  - 2. comments.php =>  comment out the whole file
+   OR css it into sumbission
+     // hide comments on posts
+     .be-themes-comments,
+     .post-meta.post-comments {
+      display: none;
+     }
 
 remove categories at bottom of single post & archive
 -----------------------------
 
- - blog/post-bottom-details  => comment out the whole thing 
+ - blog/post-bottom-details  => comment out the whole thing
+    OR css it into sumbission
+
+
+      // hide the 'posted in' category on blog posts
+      .post-meta.post-category {
+      	display: none;
+      }
+      // if hiding everything after author in post-meta, hide the separator
+      .post-meta.post-author{
+      	.post-meta-sep {
+      		display: none;
+      	}
+      }
+
 
 blog archive use excerpt
 ------------
-ex:  blog/loop-style2 => approx line 48 only check for if !is_single().  i.e. dont check for enable_pb_blog_posts 
+ex:  blog/loop-style2 => approx line 48 only check for if !is_single().  i.e. dont check for enable_pb_blog_posts
 
 
 
 single posts
 ---------------
   - move pict under title and wrap content around, also max height & widget (40%?)
-   ex:  birchbayvillage.
+   ex:  dugas.
