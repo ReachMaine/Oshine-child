@@ -27,6 +27,13 @@ remove categories at bottom of single post & archive
       	}
       }
 
+     --- OR ----
+     // hide the 'posted in' category on blog posts
+     .post-meta.post-comments,
+     .post-meta.post-category,
+     .post-meta.post-author .post-meta-sep  { // hide the separator
+       display: none;
+     }
 
 blog archive use excerpt
 ------------
