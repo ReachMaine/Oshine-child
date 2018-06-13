@@ -2,6 +2,13 @@
 /* mods
 	10Oct16 zig - add widget area above bottom-widgets for reach CTA
  */
+	 if (is_active_sidebar('reach-under-content')) {
+		echo '<div id="reach-under-content">';
+			echo '<div id="reach-under-content-wrap" class="be-wrap be-row clearfix">';
+				 dynamic_sidebar( 'reach-under-content');
+			echo '</div><!-- under content wrap -->';
+		echo '</div><!-- under content -->';
+	}
 	if (is_active_sidebar('reach-bottom-cta')) {
 		echo '<footer id="reach-bottom-cta">';
 			echo '<div id="reach-bottom-cta-wrap" class="be-wrap be-row clearfix">';
