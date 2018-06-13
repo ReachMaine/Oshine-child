@@ -47,14 +47,17 @@
       content:"*";
       color: red;
     }
-    .one-half {
+    .one-half, .one-third, .two-third {
       position: relative;
-      margin-right: 4%;
+      //margin-right: 4%;
+      padding-right: 2%;
+      padding-bottom: 5px;
       float: left;
       // width set in foundation.css
     }
-    .one-half.last {
-      margin-right: 0px!important;
+    .one-half.last, .one-third.last, .two-third.last {
+      //margin-right: 0px!important;
+      padding-right: 0px;
       clear: right;
     }
 }
