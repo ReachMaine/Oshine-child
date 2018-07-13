@@ -1,3 +1,15 @@
+Blog styles in theme options
+--------------------
+	small-thumb:  	style2-blog
+
+	masonary:     	style3-blog
+
+	large-thumbnail:	(default, no specific class?)
+
+	large-thumb, content in box:
+
+
+
 remove comments
 -------------------
  - 1. blog/post-top-details =>  comment the <li> for comments
@@ -40,8 +52,23 @@ blog archive use excerpt
 ex:  blog/loop-style2 => approx line 48 only check for if !is_single().  i.e. dont check for enable_pb_blog_posts
 
 
+blog archive image left, excerpt right
+---------------
+ex:  birchbay https://www.birchbayvillage.us/category/news/ 
 
-single posts
+    - blog/loop-style2 => 
+      css the readmore into life, .more-link
+
+blog single:  image-left, text wrap...
+-------------------------------------
+
+use css in media to set max widht of thumbnail.  
+allow light box of image, content.php uncommnet || is_single() aprrox line 17
+
+ex: cadillac mountian sports
+
+
+single posts:  image-right as column..
 ---------------
   - move pict under title and wrap content around, also max height & widget (40%?)
    ex:  dugas.

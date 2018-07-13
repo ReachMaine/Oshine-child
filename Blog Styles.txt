@@ -1,9 +1,0 @@
-Blog styles
---------------------
-	small-thumb:  	style2-blog
-
-	masonary:     	style3-blog
-
-	large-thumbnail:	(default, no specific class?)
-
-	large-thumb, content in box:

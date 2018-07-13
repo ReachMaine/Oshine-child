@@ -1,7 +1,13 @@
 // contact form 7 styling
+// special colors
+$cf7-success-color: #F4E19A;
+$cf7-success-background: #598E46;
+$cf7-submit-color: #fff;
+
 .wpcf7-form {
    textarea {
       height: 200px;
+      background-color: white;
     }
     input[type="text"],
     input[type="password"],
@@ -35,10 +41,11 @@
       border-radius: 3px;
       text-transform: uppercase;
       font-weight: bold;
+      color: $cf7-submit-color;
     }
     label {
-      font-weight: bold;
-      font-size: 1.1em;
+      //font-weight: bold;
+      //font-size: 1.1em;
     }
     p {
       margin-bottom: 5px;
