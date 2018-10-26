@@ -4,3 +4,6 @@ OMNE.org
 
 EA-publicnotices & EA-Calendar
    - move header background image up to behind the #header s.t. topbar is overtop of the image as well.
+
+hero section on product categories???  
+  - maine stoves & Fireplaces

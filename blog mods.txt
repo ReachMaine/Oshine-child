@@ -55,9 +55,11 @@ ex:  blog/loop-style2 => approx line 48 only check for if !is_single().  i.e. do
 blog archive image left, excerpt right
 ---------------
 ex:  birchbay https://www.birchbayvillage.us/category/news/ 
+     cadillacsports.com/category/news/
+
 
     - blog/loop-style2 => 
-      css the readmore into life, .more-link
+      css the readmore into life, .more-link need display block (hidden)
 
 blog single:  image-left, text wrap...
 -------------------------------------
@@ -71,4 +73,4 @@ ex: cadillac mountian sports
 single posts:  image-right as column..
 ---------------
   - move pict under title and wrap content around, also max height & widget (40%?)
-   ex:  dugas.
+   ex:  cadillac mountian sports
