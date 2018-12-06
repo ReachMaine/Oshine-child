@@ -1,0 +1,15 @@
+Vertically align text in column in status.
+
+set row to be equal height
+add class to column for (reach-valign-center?)
+
+.tatsu-eq-cols { // row content-wrap
+	.reach-valign-center { // column class
+		.tatsu-column-pad {
+			display: flex;
+    	align-items: center;
+    	height: 100%;
+		}
+
+	}
+}
