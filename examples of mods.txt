@@ -9,3 +9,17 @@ hero section on product categories???
   - maine stoves & Fireplaces
 
 hero section on blog archives...
+
+post archive, if no thumb content full width.
+	ex:   Sunrise trail (blog2)
+	- add no-thumb class to article-details in blog/loop-style2.php
+	- style 
+	    .style2-blog {
+		 .blog-post { // article
+			 .post-content-wrap {
+				.article-details.no-thumb {
+					width: 100%;
+				}
+			 }
+		}
+	    }
